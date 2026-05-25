@@ -1,11 +1,20 @@
 
-  # AI Agency Website Build
+  # Luminous Pixels Website
 
-  This is a code bundle for AI Agency Website Build. The original project is available at https://www.figma.com/design/DStDKlFFjV2M4deJ7uHmbc/AI-Agency-Website-Build.
+  Premium AI agency marketing site for **Luminous Pixels**, built with Vite + React and Tailwind v4.
 
   ## Running the code
 
-  Run `npm i` to install the dependencies.
+  1. Install dependencies:
+     - `npm i`
+  2. Start the dev server:
+     - `npm run dev`
+  3. Build for production:
+     - `npm run build`
 
-  Run `npm run dev` to start the development server.
+  ## Docs
+  - `documentation.md` - concise project reference
+  - `docs/sprint-guide.md` - worked on / in progress / planned
+  - `docs/integrations.md` - Resend, domain, and PostHog integration guide
+  - `docs/premium-recommendations.md` - premium site recommendations
   

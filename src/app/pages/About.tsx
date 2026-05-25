@@ -104,7 +104,7 @@ export function About() {
               <span style={{ color: "rgba(255,255,255,0.35)" }}>business deserves AI.</span>
             </h1>
             <p className="text-white/40 max-w-lg leading-relaxed" style={{ fontSize: "1rem" }}>
-              Axon AI was founded on a simple belief: the productivity gap between businesses using AI and those that aren't will define the next decade of business. We exist to close that gap.
+              Luminous Pixels was founded on a simple belief: the productivity gap between businesses using AI and those that aren't will define the next decade of business. We exist to close that gap.
             </p>
           </motion.div>
         </div>
@@ -234,7 +234,7 @@ export function About() {
             </p>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group"
+              className="inline-flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
               style={{ fontWeight: 500 }}
             >
               Get in Touch

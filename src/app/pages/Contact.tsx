@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "motion/react";
-import { ArrowRight, Mail, MapPin, Clock, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Clock, CheckCircle2, Phone } from "lucide-react";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);
@@ -223,7 +223,7 @@ export function Contact() {
                   <button
                     type="submit"
                     disabled={formState === "submitting"}
-                    className="flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group disabled:opacity-50"
+                    className="flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group disabled:opacity-50 shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
                     style={{ fontWeight: 500 }}
                   >
                     {formState === "submitting" ? "Sending..." : "Send Message"}
@@ -265,8 +265,17 @@ export function Contact() {
                     <Mail size={14} className="text-white/30 mt-0.5 shrink-0" />
                     <div>
                       <div className="text-white/30 text-xs mb-0.5">Email</div>
-                      <a href="mailto:hello@axon.ai" className="text-white/60 hover:text-white text-sm transition-colors">
-                        hello@axon.ai
+                      <a href="mailto:jehkat505@gmail.com" className="text-white/60 hover:text-white text-sm transition-colors">
+                        jehkat505@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Phone size={14} className="text-white/30 mt-0.5 shrink-0" />
+                    <div>
+                      <div className="text-white/30 text-xs mb-0.5">Phone</div>
+                      <a href="tel:+260768737737" className="text-white/60 hover:text-white text-sm transition-colors">
+                        +260 768 737 737
                       </a>
                     </div>
                   </div>

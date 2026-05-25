@@ -8,6 +8,7 @@ const navLinks = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "About", href: "/about" },
+  { label: "Sprint Guide", href: "/sprint-guide" },
 ];
 
 export function Navbar() {
@@ -42,7 +43,7 @@ export function Navbar() {
               <div className="w-3 h-3 bg-black rounded-sm" />
             </div>
             <span className="text-white text-sm tracking-tight" style={{ fontWeight: 600 }}>
-              AXON AI
+              Luminous Pixels
             </span>
           </Link>
 
@@ -73,7 +74,7 @@ export function Navbar() {
             </Link>
             <Link
               to="/contact"
-              className="text-sm bg-white text-black px-4 py-2 rounded-full hover:bg-white/90 transition-all duration-200"
+              className="text-sm bg-white text-black px-4 py-2 rounded-full hover:bg-white/90 transition-all duration-200 shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
               style={{ fontWeight: 500 }}
             >
               Get Started
@@ -125,7 +126,7 @@ export function Navbar() {
               >
                 <Link
                   to="/contact"
-                  className="inline-block bg-white text-black px-6 py-3 rounded-full text-sm"
+                  className="inline-block bg-white text-black px-6 py-3 rounded-full text-sm shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
                   style={{ fontWeight: 500 }}
                 >
                   Get Started

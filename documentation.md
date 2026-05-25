@@ -1,7 +1,7 @@
-# AI Agency Website - Concise Documentation
+# Luminous Pixels Website - Concise Documentation
 
 ## Overview
-This is a Vite + React single-page marketing site for **Axon AI**.
+This is a Vite + React single-page marketing site for **Luminous Pixels**.
 It uses `react-router` (browser routing), Tailwind CSS v4, and Motion animations.
 
 ## Tech Stack
@@ -17,7 +17,7 @@ It uses `react-router` (browser routing), Tailwind CSS v4, and Motion animations
 - `src/app/routes.ts` - route map.
 - `src/app/layout/Root.tsx` - shared layout (Navbar + Footer + page outlet + scroll-to-top on route change).
 - `src/app/pages/*.tsx` - route pages:
-  - `Home`, `Services`, `HowItWorks`, `CaseStudies`, `About`, `Contact`, `NotFound`
+  - `Home`, `Services`, `HowItWorks`, `CaseStudies`, `About`, `SprintGuide`, `Contact`, `NotFound`
 - `src/app/components/Navbar.tsx`, `Footer.tsx` - shared shell components.
 - `src/styles/` - layered global styling:
   - `index.css` imports `fonts.css`, `tailwind.css`, `theme.css`, `agency.css`
@@ -29,6 +29,7 @@ Defined in `src/app/routes.ts`:
 - `/how-it-works`
 - `/case-studies`
 - `/about`
+- `/sprint-guide`
 - `/contact`
 - fallback `*` -> NotFound
 
@@ -62,6 +63,15 @@ From `package.json`:
 ## Deployment
 This outputs a static Vite build (`dist/`) suitable for static hosting/CDN deployment.
 Ensure SPA fallback is configured to `index.html` for client-side routes.
+
+## Contact Details
+- Email: `jehkat505@gmail.com`
+- Phone: `+260 768 737 737`
+
+## Docs
+- `docs/sprint-guide.md` - status by worked on / in progress / planned
+- `docs/integrations.md` - Resend, domain, and PostHog integration guide
+- `docs/premium-recommendations.md` - premium AI agency site enhancements
 
 ## Maintenance Notes
 - A large `src/app/components/ui/` component library exists but is currently not imported by routed pages.

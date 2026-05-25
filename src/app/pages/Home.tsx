@@ -284,7 +284,7 @@ export function Home() {
           >
             <Link
               to="/contact"
-              className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group"
+              className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
               style={{ fontWeight: 500 }}
             >
               Book a Discovery Call
@@ -617,7 +617,7 @@ export function Home() {
               className="text-white mb-8"
               style={{ fontSize: "clamp(1.4rem, 3vw, 2.25rem)", fontWeight: 500, letterSpacing: "-0.025em", lineHeight: 1.35 }}
             >
-              "Axon AI automated 80% of our back-office operations in 6 weeks.
+              "Luminous Pixels automated 80% of our back-office operations in 6 weeks.
               We scaled from 200 to 2,000 clients without adding a single headcount."
             </blockquote>
             <div className="flex items-center justify-center gap-3">
@@ -653,7 +653,7 @@ export function Home() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
                 to="/contact"
-                className="flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group"
+                className="flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
                 style={{ fontWeight: 500 }}
               >
                 Book a Free Call

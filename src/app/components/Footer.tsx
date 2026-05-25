@@ -11,6 +11,7 @@ const footerLinks = {
   Company: [
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
+    { label: "Sprint Guide", href: "/sprint-guide" },
     { label: "Blog", href: "#" },
     { label: "Careers", href: "#" },
   ],
@@ -33,11 +34,11 @@ export function Footer() {
                 <div className="w-3 h-3 bg-black rounded-sm" />
               </div>
               <span className="text-white text-sm" style={{ fontWeight: 600 }}>
-                AXON AI
+                Luminous Pixels
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-              We build AI automation systems that eliminate manual work and scale your business operations globally.
+              Luminous Pixels builds AI automation systems that eliminate manual work and scale business operations globally.
             </p>
             <div className="flex items-center gap-4 mt-6">
               <a
@@ -79,7 +80,7 @@ export function Footer() {
 
         <div className="border-t border-white/[0.06] mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">
-            © {new Date().getFullYear()} Axon AI. All rights reserved.
+            © {new Date().getFullYear()} Luminous Pixels. All rights reserved.
           </p>
           <p className="text-white/20 text-xs">
             Built for global scale. Designed for conversion.

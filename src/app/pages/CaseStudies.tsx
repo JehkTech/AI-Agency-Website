@@ -45,7 +45,7 @@ const caseStudies = [
       { value: "6 weeks", label: "Time to deployment" },
     ],
     stack: ["GPT-4o", "Zapier", "Notion", "Google Drive", "Slack"],
-    quote: "We went from drowning in paperwork to having AI handle our entire document pipeline. Axon delivered exactly what they promised.",
+    quote: "We went from drowning in paperwork to having AI handle our entire document pipeline. Luminous Pixels delivered exactly what they promised.",
     quoteName: "James M., CEO",
   },
   {
@@ -102,7 +102,7 @@ const caseStudies = [
       { value: "8 weeks", label: "Full transformation" },
     ],
     stack: ["GPT-4o", "Xero", "Buildertrend", "Slack", "DocuSign"],
-    quote: "We finally have visibility into our entire business. Axon didn't just automate our work — they gave us our first real operating system.",
+    quote: "We finally have visibility into our entire business. Luminous Pixels didn't just automate our work — they gave us our first real operating system.",
     quoteName: "Mike T., Founder",
   },
 ];
@@ -262,7 +262,7 @@ export function CaseStudies() {
             </p>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group"
+              className="inline-flex items-center gap-2 bg-white text-black px-8 py-3.5 rounded-full text-sm hover:bg-white/90 transition-all duration-200 group shadow-[0_12px_32px_rgba(255,255,255,0.12)] hover:shadow-[0_18px_40px_rgba(255,255,255,0.18)]"
               style={{ fontWeight: 500 }}
             >
               Start Your Project
